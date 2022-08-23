@@ -1,0 +1,52 @@
+<!-- Boilder Plate -->
+
+<!DOCTYPE html>
+<!--  Informs Browser of the language used in the HTML file aswell as the language the webpage sould be displayed in -->
+<html lang="en">
+<head>
+    <!-- Determins what characters can be used on the webpage. UTF-8 is the universal set used for websites -->
+    <meta charset="UTF-8">
+    <!-- Assists the browser with compatibility of our files -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Sets the width of a webpage to the width of the device it is being used on -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets a description for a website. It is useful for when users are searching online using a search engine. -->
+    <meta name="description" content="This is a webpage about the basics of HTML">
+    <title>HTML Elements</title>
+</head>
+<body>
+    <!-- BLOCK ELEMENTS -->
+    <!--  block elements start on a new line and take up the width avilable -->
+    <h1>Hello</h1>
+    <h2>Goodbye</h2>
+    <p>This is another block element</p>
+
+    <!-- Linline elements only start on a new line when proceeded by a block element. Also, inline elements only take up the space needed to display the content of the elements. -->
+    <strong>This text is bold</strong>
+    <strong> This is also an Inline Element</strong>
+
+    <!-- Inline elements can be used inside other elements (EX: Block elements) -->
+    <p>This is a 
+        <strong>strong element</strong>
+        in a paragraph
+        <em>element.</em>
+    </p>
+    <!-- <b>This is a bold tag. It is an inline element</b> -->
+    <!-- <i>This is a italic tag. It is also an Inline Element</i> -->
+    <!-- <strong> and <em> tags are considered best practice for accessibility over <b> and <i> tags. -->
+    <!-- Anchor tags (AKA A tags) are used for links. A tags are inline elements. -->
+    <!-- These can be used to link to external sites, within HTMl they can be used to link to another page -->
+
+    <!-- Adding attribute (Target="_blank") will open it the hyperlink in a new tab -->
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <br>
+    <a href="index.html">HOME</a>
+    
+    <!-- SELF-CLOSING ELEMENTS/TAGS -->
+    <!-- Horizontal Rule is an example of a self-closing element -->
+    <hr>
+
+    <!-- Line Break is another example of a self closing-element -->
+    <br>
+</body>
+</html>
